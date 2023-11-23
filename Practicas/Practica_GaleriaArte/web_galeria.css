@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color: white;
+  
+}
+
+header{
+  display: block;
+  background-color: rgb(245, 159, 0);
+  width: 100%;
+}
+.nav_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.title_container{
+    display: flex;
+    flex-basis: 100%;
+    margin-top:20px;
+    margin-bottom: 8px;
+}
+.title_container h1{
+    margin: 0 auto;
+}
+
+.links_container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 380px;
+}
+.links_container li{
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: black;
+    margin: 10px;
+}
+.links_container li:nth-child(3){
+    width: 120px;
+    
+}
+
+.links_container li a{
+    text-decoration: none;
+
+}
+
+/*Baner*/
+
+.baner_container{
+    height: 450px;
+    width: 450px;
+    background-color: blue;
+    display: flex;
+    margin: 15px auto;
+}
+
+.text_imgs_container{
+    margin: 550px auto 0 auto;
+    align-self: center;
+    background-color: aqua;
+    
+    max-width: 380px;
+}
+
+.text_imgs_container p{
+    text-align: center;
+}
+
+/*Artistas*/
+
+.pintors_container{
+    display: block;
+    height: 550px;
+    margin-top: 150px;
+    background-color: gray;
+}
+
+.info_container{
+    background-color:aliceblue;
+    display: flex;
+    margin: 0 auto;
+    height: 550px;
+    max-width: 800px;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.names_container{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 400px;
+}
+.names_container h2{
+    margin: 10px 20px;
+}
+.text_names_container{
+    display: block;
+    background-color: orange;
+    height: 100px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.invisible_img_container{
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+
+}
+
+

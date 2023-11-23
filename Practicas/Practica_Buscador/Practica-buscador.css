@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.searcher-container {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 70px;
+  border-radius: 25px;
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: 0px 0px 5px rgb(156, 156, 156);
+  min-width: 320px;
+}
+
+.input-container {
+  display: flex;
+  width: 95%;
+}
+.input-container input {
+  margin-left: 20px;
+  width: 100%;
+  height: 30px;
+  border-radius: 11px;
+  border: none;
+  align-self: center;
+  background: none;
+  outline: 0px;
+  font-size: 18px;
+  color: rgb(56, 56, 56);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.input-container label {
+  position: absolute;
+  margin-top: 10px;
+  left: 105px;
+  font-size: 19px;
+  pointer-events: none;
+  color: rgb(56, 56, 56);
+}
+
+input:focus ~ label{
+    transform: translateY(-30px);
+    font-size: 16px;
+    padding: 0 2px;
+    background: transparent;
+    transition: all 1.2s;
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
+
+
+.button-container {
+  align-self: center;
+  min-width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.searcher-container button {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  flex-shrink: 0.0001;
+  border-radius: 50%;
+  border: transparent;
+  background-color: transparent;
+  transition: all 1.2s;
+}
+
+.searcher-container button:hover {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  flex-shrink: 0.0001;
+  border-radius: 50%;
+  border: transparent;
+}
+
+.material-symbols-outlined {
+  transition: all 1s;
+}
+
+.material-symbols-outlined:hover {
+  color: rgb(36, 36, 36);
+  filter: brightness(1);
+  transform: scale(1.2);
+}

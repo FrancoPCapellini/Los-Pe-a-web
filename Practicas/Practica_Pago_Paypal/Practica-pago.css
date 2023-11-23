@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+body{
+    background-color: rgb(23, 103, 223);
+}
+
+.all-container{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    align-items: center;
+    margin: 150px auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(20, 87, 163);
+}
+
+/*imagen*/
+.img-container{
+    margin-top: -145px;
+    margin-left: 20px;
+}
+
+.img-container img{
+    height: 130px;
+}
+
+/*texto*/
+.text-container{
+    margin-left: 20px;
+    margin-bottom: 140px;
+    flex-basis: 300px;
+}
+
+.text-container p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.text-container :nth-child(1){
+    font-weight: bold;
+}
+.text-container :nth-child(2){
+    font-size: 17px;
+
+}
+
+/*Botones*/
+.button-container{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin-left: 25px;
+    width: 400px;
+    margin-top: 90px;
+    
+
+}
+
+.button-container :nth-child(1){
+    height:45px;
+    margin: 50px 10px 10px 10px;
+    background-color: rgb(10, 162, 223);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.btn-1:hover{
+    background-color: rgb(10, 132, 180);   
+}
+
+.button-container :nth-child(2){
+    height:45px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgb(180, 180, 180);
+    font-weight: bold;
+}
+.btn-2:hover{
+    background-color: rgb(235, 235, 235);   
+}
+
+@media screen and (min-width:700px){
+    .all-container{
+        display: flex;
+        background-color: white;
+        height: 250px;
+        width: 750px;
+        align-items: center;
+        margin: 150px auto;
+        border-radius: 40px;
+        box-shadow: 5px 5px 5px rgb(20, 87, 163);
+    }
+    .img-container{
+        margin-top: -105px;
+        margin-left: 20px;
+    }
+    .text-container{
+        margin-left: 20px;
+        margin-bottom: 100px;
+        flex-basis: 300px;
+    }
+    .button-container{
+        display: flex;
+        flex-flow: row;
+        position: absolute;
+        margin-left: 380px;
+        width: 400px;
+        margin-top: 130px;
+    }
+    .button-container :nth-child(1){
+        height:45px;
+        width: 150px;
+        margin: 0px 5px 0px 0px;
+        
+    }
+    .button-container :nth-child(2){
+        height:45px;
+        width: 150px;
+        
+    }
+
+
+    
+}
